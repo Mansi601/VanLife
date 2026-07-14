@@ -1,0 +1,13 @@
+import { Link } from "react-router-dom";
+
+export default function Navbar() {
+  return (
+    <header>
+      <Link to="/" className="site-logo">#VANLIFE</Link>
+      <nav>
+        <Link to="/about">About</Link>
+        <Link to="/about">Van</Link>
+      </nav>
+    </header>
+  );
+}
