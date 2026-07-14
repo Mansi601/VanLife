@@ -109,7 +109,7 @@ header a:hover {
 .home-container {
   background:
     linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
-    url("home-banner.jpg") no-repeat center center;
+    url("/home-banner.jpg") no-repeat center center;
   background-size: cover;
   min-height: 410px;
   color: white;
